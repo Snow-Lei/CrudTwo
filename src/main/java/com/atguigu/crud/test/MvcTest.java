@@ -48,6 +48,7 @@ public class MvcTest {
         System.out.println("当前页码"+pageInfo.getPageNum());
         System.out.println("总页码"+pageInfo.getPages());
         System.out.println("总 记录数"+pageInfo.getTotal());
+        System.out.println("hello!");
         System.out.println("连续显示页码");
         int[] navigatepageNums = pageInfo.getNavigatepageNums();
         for(int i: navigatepageNums){
